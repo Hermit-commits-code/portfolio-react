@@ -25,6 +25,17 @@
   color: var(--color-text-muted);
 }
 
+.site-shell {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.home {
+  min-width: 0;
+  display: grid;
+}
+
 @media (max-width: 639px) {
   .app {
     padding-block: var(--space-8);
