@@ -33,7 +33,6 @@
 
 .home {
   min-width: 0;
-  display: grid;
 }
 
 @media (max-width: 639px) {
